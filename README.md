@@ -4,4 +4,4 @@ Example of force linear history setting in GitHub. In a GitOps setup, this is us
 
 ![Linear History](./images/requireLinearHistory.png)
 
-When you create a PR, you can see that the merge commit is not added to the history.
+When you create a PR from lab to dev you will that dev is rebased on top of lab. This is because the setting _Require linear history_ is enabled.
