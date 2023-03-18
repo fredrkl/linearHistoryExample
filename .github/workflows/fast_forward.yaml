@@ -1,3 +1,5 @@
+name: Fast Forward PR Action Workflow Comment
+
 on: 
   issue_comment:
     types: [created]
