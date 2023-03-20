@@ -4,8 +4,6 @@ on:
   issue_comment:
     types: [created]
 
-permissions: write-all
-
 jobs:
   fast_forward_job:
     name: Fast Forward
