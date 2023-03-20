@@ -5,7 +5,9 @@ on:
     types: [created]
 
 permissions:
+  actions: write
   pull-requests: write
+  contents: write
 
 jobs:
   fast_forward_job:
