@@ -1,7 +1,7 @@
 # Linear History Example
 
-Example of force linear history setting in GitHub. In a GitOps setup, this is useful to prevent merge commits from being added to the history. This repo, therefore, has the setting _Require linear history_ enabled.
+Example of force linear history setting in GitHub. In a GitOps setup, this is useful to prevent merge commits from being added to the history.
 
 ![Linear History](./images/requireLinearHistory.png)
 
-When you create a PR from _lab_ to _dev_ you want dev rebased on top of lab. This is because the setting _Require linear history_ is enabled.
+When you create a PR from lab to dev you want the _dev_ branch rebased on top of _lab_. Unfortunatley fast forwarding is not possible in regular GH PRs. This is where the _fast forward_ GH action comes in.
