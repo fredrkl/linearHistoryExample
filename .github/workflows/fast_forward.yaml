@@ -4,8 +4,7 @@ on:
   issue_comment:
     types: [created]
 
-permissions:
-  pull-requests: write
+permissions: write-all
 
 jobs:
   fast_forward_job:
